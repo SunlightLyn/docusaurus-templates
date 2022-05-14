@@ -38,7 +38,7 @@ My research interest includes neural machine translation and computer vision. I 
 <Grid item sm={12} md={5}>
 <CardMedia
         component="img"
-        image="/img/500x300.png"
+        image="img/500x300.png"
         sx={{ height:"100%" }}
       />
 </Grid>

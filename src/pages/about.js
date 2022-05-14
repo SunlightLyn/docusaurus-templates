@@ -41,6 +41,7 @@ const styles = {
     maxHeight: 200,
     width: "100%",
     height: "100%",
+    // aspectRatio: "1:1",
     margin: "0 auto 1em"
   }
 }
@@ -48,7 +49,7 @@ const styles = {
 function Sidebar() {
   return (
     <Paper sx={styles.sidebar} elevation={3}>
-      <Avatar src={"/img/profile.png"} sx={styles.avatar} />
+      <Avatar src={"img/profile.png"} sx={styles.avatar} />
       <h2> Lorem ipsum </h2>
       <p>
         Lorem ipsum College<br />
